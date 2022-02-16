@@ -11,20 +11,53 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <!------- bootstrap link ------>
+
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
 </head>
 
 <body>
+    <!----------- titel aria -------->
     <header>
         <div>
-            <h1 class="text-center my-5">My Earn money</h1>
+            <h1 class="text-center my-5 fw-bold">My Earn money</h1>
         </div>
     </header>
+    <!--------------- img and calculet aria --------->
 
     <main>
+        <section>
+            <div class="container my-5">
+                <div class="row">
+                    <div class=" my-4 col-sm-12 col-lg-6">
+                        <img width="620px" height="700px" src="./img/money.jpg" alt="">
+                    </div>
 
+                    <div class="col-sm-12 col-lg-6 my-4 card-background">
+                        <div class="text-center">
+                            <form>
+                                <h3 class="fw-bold">Income</h3><br>
+                                <label for="text">Income:</label>
+                                <input type="text" id="fname" name="fname" value="1000"><br><br>
+                                <h3 class="fw-bold">Expenses</h3><br>
+                                <label for="text">Food:</label>
+                                <input type="text" id="lname" name="lname" value="3000"><br><br>
+                                <label for="text">Rent:</label>
+                                <input type="text" id="fname" name="fname" value="1000"><br><br>
+                                <label for="text">Clothes:</label>
+                                <input type="text" id="fname" name="fname" value="500"><br><br>
+                                <input class="buton px-4 py-2 fw-bold" type="submit" value="Calculate"><br>
+                                <h3 class="fw-bold">Total Expenses: 5500 </h3><br>
+                                <h3 class="fw-bold">Balance: 4500</h3><br>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!------------ js file link -------->
 
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./js/assinman-5.js"></script>
