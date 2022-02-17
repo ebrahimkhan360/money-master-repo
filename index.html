@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body id="background">
     <!----------- titel aria -------->
     <header>
         <div>
@@ -30,7 +30,7 @@
             <div class="container my-5">
                 <div class="row">
                     <div class=" my-4 col-sm-12 col-lg-6">
-                        <img width="620px" height="700px" src="./img/money.jpg" alt="">
+                        <img class="img" width="620px" height="700px" src="./img/money.jpg" alt="">
                     </div>
                     <div class="col-sm-12 col-lg-6 my-4 card-background">
                         <div class="text-center">
@@ -42,7 +42,7 @@
                                 <label class="fw-bold" for="income">Earning: </label>
                                 <input type="text" id="income" placeholder="Enter Amount"><br>
 
-                                <h3 class="my-4 fw-bold">Pocket Money</h3>
+                                <h3 class="my-4 fw-bold">Expenses</h3>
 
                                 <label class="fw-bold" for="meal">Meal: </label>
                                 <input type="text" id="meal" placeholder="Enter Amount"><br><br>
@@ -53,10 +53,10 @@
                                 <label class="fw-bold" for="clothing">Clothing: </label>
                                 <input type="text" id="clothing" placeholder="Enter Amount"><br><br>
                                 <!-- button -->
-                                <button id="calculate" class="px-5 py-2 buton">Calculate</button>
+                                <button id="calculate" class="px-5 py-2 fw-bold buton">Calculate</button>
 
                                 <!-- </form> -->
-                                <h3 class="my-4">Total Expenses<span id="expenses">00</span></h3>
+                                <h3 class="my-4">Total Expenses:<span id="expenses">00</span></h3>
                                 <h3 class="my-4">Balance: <span id="total-amount">00</span></h3>
                             </div>
 

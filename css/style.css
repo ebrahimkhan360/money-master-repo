@@ -1,14 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#background{
+    background-color: #bbbbbb;
+}
 
-body{
-    font-family: 'Poppins', sans-serif;
+.img{
+    border-radius: 10px;
 }
 .card-background{
-    background-color: #a4e7e7;
+    background-color: #d7fcfc;
     width: 620px;
     height: 700px;
+    border-radius: 10px;
 }
+/*/////////// buton////////// */
+
 .buton{
-    background-color: #5d4cf8;
+    background-color: #887cf1;
     border-radius: 5px;
+    color: #fcfcfc;
 }
