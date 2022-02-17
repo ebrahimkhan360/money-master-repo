@@ -5,6 +5,8 @@ body{
 }
 .card-background{
     background-color: #a4e7e7;
+    width: 620px;
+    height: 700px;
 }
 .buton{
     background-color: #5d4cf8;

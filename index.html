@@ -32,24 +32,36 @@
                     <div class=" my-4 col-sm-12 col-lg-6">
                         <img width="620px" height="700px" src="./img/money.jpg" alt="">
                     </div>
-
                     <div class="col-sm-12 col-lg-6 my-4 card-background">
                         <div class="text-center">
-                            <form>
-                                <h3 class="fw-bold">Income</h3><br>
-                                <label for="text">Income:</label>
-                                <input type="text" id="fname" name="fname" value="1000"><br><br>
-                                <h3 class="fw-bold">Expenses</h3><br>
-                                <label for="text">Food:</label>
-                                <input type="text" id="lname" name="lname" value="3000"><br><br>
-                                <label for="text">Rent:</label>
-                                <input type="text" id="fname" name="fname" value="1000"><br><br>
-                                <label for="text">Clothes:</label>
-                                <input type="text" id="fname" name="fname" value="500"><br><br>
-                                <input class="buton px-4 py-2 fw-bold" type="submit" value="Calculate"><br>
-                                <h3 class="fw-bold">Total Expenses: 5500 </h3><br>
-                                <h3 class="fw-bold">Balance: 4500</h3><br>
-                            </form>
+
+                            <!-- <form ---->
+
+                            <div class="my-5">
+                                <h3 class="fw-bold">Income</h3>
+                                <label class="fw-bold" for="income">Earning: </label>
+                                <input type="text" id="income" placeholder="Enter Amount"><br>
+
+                                <h3 class="my-4 fw-bold">Pocket Money</h3>
+
+                                <label class="fw-bold" for="meal">Meal: </label>
+                                <input type="text" id="meal" placeholder="Enter Amount"><br><br>
+
+                                <label class="fw-bold" for="pay">Pay: </label>
+                                <input type="text" id="pay" placeholder="Enter Amount"><br><br>
+
+                                <label class="fw-bold" for="clothing">Clothing: </label>
+                                <input type="text" id="clothing" placeholder="Enter Amount"><br><br>
+                                <!-- button -->
+                                <button id="calculate" class="px-5 py-2 buton">Calculate</button>
+
+                                <!-- </form> -->
+                                <h3 class="my-4">Total Expenses<span id="expenses">00</span></h3>
+                                <h3 class="my-4">Balance: <span id="total-amount">00</span></h3>
+                            </div>
+
+
+                            <!---- from ------->
                         </div>
                     </div>
                 </div>
@@ -60,7 +72,7 @@
     <!------------ js file link -------->
 
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="./js/assinman-5.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
